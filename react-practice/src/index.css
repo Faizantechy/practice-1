@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body{
+
+    background-color: rgb(119, 106, 106);
+    color: white;
+}
+
+
+.container{
+
+    padding: 1rem;
+}
+
+
+h2,h1{
+
+    font-size: 2rem
+}
+
+
+ul li{
+
+    font-size: 1.2rem;
+}
+
+table{
+
+    padding: 1rem;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+}
+
+
+table td, th{
+
+    padding: 1rem;
+    padding-left: 2rem;
+    
+}
+
+
+.LI{
+
+    background-color: aqua;
+    color: white;
+
+}
